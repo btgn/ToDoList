@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ValuesForSpinner_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Errands</item>
+        <item>Workout</item>
+    </string-array>
+</resources>
