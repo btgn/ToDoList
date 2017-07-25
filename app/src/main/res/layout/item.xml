@@ -22,11 +22,10 @@
         that specific 'to do' is marked as done by a strikethrough-->
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:onClick="taskDone"/>
+            android:layout_alignParentRight="true"/>
 
 
     </RelativeLayout>

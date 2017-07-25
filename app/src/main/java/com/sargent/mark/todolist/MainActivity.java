@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
     }
 
     /*Added a checkbox to do a strike through when a checkbox is check marked*/
-    public void taskDone(View view) {
+    /*public void taskDone(View view) {
         CheckBox cb = (CheckBox) findViewById(R.id.checkBox);
         View parent = (View) view.getParent();
         TextView taskTextView = (TextView) parent.findViewById(R.id.description);
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
         }
 //        String task = String.valueOf(taskTextView.getText());
 
-    }
+    }*/
 
     @Override
     protected void onStop() {
